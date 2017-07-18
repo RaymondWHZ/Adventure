@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    var havePickaxe=false
+    var haveRope=false
+    var haveAxe=false
 }
 
