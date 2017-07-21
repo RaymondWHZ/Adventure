@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4cg-dU-ciI">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,23 +19,23 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cni-cy-BKP">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Cave Entrance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ups-Hs-fOo">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Copy of c_cave-of-wonders" translatesAutoresizingMaskIntoConstraints="NO" id="xCT-Yo-tWV">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="284"/>
+                                        <rect key="frame" x="0.0" y="21" width="374" height="284"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="'The entrance is not very big. However, the cave behind it might be a giant.'  ---The night is falling." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="l1H-Dp-Iog">
-                                        <rect key="frame" x="0.0" y="305" width="343" height="266"/>
+                                        <rect key="frame" x="0.0" y="305" width="374" height="335"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="z8J-Do-3Aa"/>
@@ -44,14 +44,14 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Y3-mK-CqJ">
-                                        <rect key="frame" x="0.0" y="571" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="640" width="374" height="30"/>
                                         <state key="normal" title="I can't wait! Enter the cave now!!!"/>
                                         <connections>
                                             <segue destination="8Qu-Bh-04w" kind="show" id="JCp-hd-8bO"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGL-RH-AA7">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
                                         <state key="normal" title="Well, I prefer to camp outside first."/>
                                         <connections>
                                             <segue destination="sKJ-rE-ogc" kind="show" id="Dqc-Sa-ygT"/>
@@ -82,23 +82,23 @@
                         <viewControllerLayoutGuide type="bottom" id="54z-RJ-cBv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YkN-yA-fpg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DW0-ZS-cOq">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Left or right?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzx-pX-P6c">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="two ways" translatesAutoresizingMaskIntoConstraints="NO" id="Gwq-Eq-I4B">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="450"/>
+                                        <rect key="frame" x="0.0" y="21" width="374" height="519"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="There are two ways in front of you." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tFd-jY-jZN">
-                                        <rect key="frame" x="0.0" y="471" width="343" height="100"/>
+                                        <rect key="frame" x="0.0" y="540" width="374" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="4pi-lz-F0r"/>
@@ -107,14 +107,14 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMh-wA-Vhh">
-                                        <rect key="frame" x="0.0" y="571" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="640" width="374" height="30"/>
                                         <state key="normal" title="Left"/>
                                         <connections>
-                                            <segue destination="4M1-P5-nHr" kind="show" id="hTA-s0-VED"/>
+                                            <action selector="headLeft:" destination="8Qu-Bh-04w" eventType="touchUpInside" id="LMv-Tf-JNH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSf-Rr-BIl">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
                                         <state key="normal" title="Right"/>
                                         <connections>
                                             <segue destination="fOA-59-zlG" kind="show" id="Feg-EH-Ak0"/>
@@ -131,6 +131,10 @@
                             <constraint firstItem="DW0-ZS-cOq" firstAttribute="top" secondItem="Qvq-FY-iBu" secondAttribute="bottom" constant="8" symbolic="YES" id="mdR-rU-jHN"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="DAb-0O-hMZ" kind="show" identifier="Killed By Bear" id="Wju-as-HcI"/>
+                        <segue destination="4M1-P5-nHr" kind="show" identifier="Kill The Bear" id="q2E-5B-ARI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XhF-vy-A7E" sceneMemberID="firstResponder"/>
             </objects>
@@ -145,23 +149,23 @@
                         <viewControllerLayoutGuide type="bottom" id="0wB-yu-76U"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Dly-23-hd1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LRj-Wa-Mw9">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Where to camp?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JiE-W8-0sT">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Copy of c_cave-of-wonders" translatesAutoresizingMaskIntoConstraints="NO" id="q5o-n5-SUG">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="284"/>
+                                        <rect key="frame" x="0.0" y="21" width="374" height="284"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="It's time to choose a camping site." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cYJ-rL-dBU">
-                                        <rect key="frame" x="0.0" y="305" width="343" height="236"/>
+                                        <rect key="frame" x="0.0" y="305" width="374" height="305"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="a7z-iL-cxd"/>
@@ -170,21 +174,21 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZc-9A-erR">
-                                        <rect key="frame" x="0.0" y="541" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="610" width="374" height="30"/>
                                         <state key="normal" title="On the mountain"/>
                                         <connections>
                                             <segue destination="7nh-3l-1cW" kind="show" id="a0g-Wn-kSB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvh-D0-t9f">
-                                        <rect key="frame" x="0.0" y="571" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="640" width="374" height="30"/>
                                         <state key="normal" title="Near the lake"/>
                                         <connections>
                                             <segue destination="omi-ml-Wpm" kind="show" id="LYf-ox-ShO"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTm-Eg-jID">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
                                         <state key="normal" title="Just here"/>
                                         <connections>
                                             <segue destination="fe1-AG-fO6" kind="show" id="9OG-Y8-vqu"/>
@@ -215,23 +219,23 @@
                         <viewControllerLayoutGuide type="bottom" id="szK-Vq-O7S"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="KJB-Gw-qId">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sZX-nC-XUb">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Cave Adventure!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IM3-Qd-tdT">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Copy of c_cave-of-wonders" translatesAutoresizingMaskIntoConstraints="NO" id="7WD-Pr-tjs">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="284"/>
+                                        <rect key="frame" x="0.0" y="21" width="374" height="284"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gxQ-wq-8tp">
-                                        <rect key="frame" x="0.0" y="305" width="343" height="266"/>
+                                        <rect key="frame" x="0.0" y="305" width="374" height="335"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="urd-UR-Mg3"/>
@@ -241,14 +245,15 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAI-ee-xpc">
-                                        <rect key="frame" x="0.0" y="571" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="640" width="374" height="30"/>
                                         <state key="normal" title="Start from the beginning"/>
                                         <connections>
+                                            <action selector="gameStart:" destination="4cg-dU-ciI" eventType="touchUpInside" id="pcf-A4-d6L"/>
                                             <segue destination="BYZ-38-t0r" kind="show" id="Ef5-lY-M0z"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihL-ZE-Hpt">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
                                         <state key="normal" title="Start from..."/>
                                     </button>
                                 </subviews>
@@ -276,23 +281,32 @@
                         <viewControllerLayoutGuide type="bottom" id="koG-g3-eiI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qsG-se-dtK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Wt0-ob-DOg">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="On the mountain?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9H7-ft-Hd4">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camping on the mountain" translatesAutoresizingMaskIntoConstraints="NO" id="Dpk-Tr-XPD">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="450"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="camping on the mountain" translatesAutoresizingMaskIntoConstraints="NO" id="Dpk-Tr-XPD">
+                                        <rect key="frame" x="0.0" y="21" width="374" height="225"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="225" id="VAA-Iq-7QT"/>
+                                        </constraints>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You are heading to the top." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g62-f3-Tlv">
-                                        <rect key="frame" x="0.0" y="471" width="343" height="100"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rope" translatesAutoresizingMaskIntoConstraints="NO" id="kiK-HB-wty">
+                                        <rect key="frame" x="0.0" y="246" width="374" height="324"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="255.5" id="mHz-1B-XJm"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You find a rope on the top of the mountain!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g62-f3-Tlv">
+                                        <rect key="frame" x="0.0" y="570" width="374" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="str-0B-zlR"/>
@@ -300,18 +314,12 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3W-yq-hpX">
-                                        <rect key="frame" x="0.0" y="571" width="343" height="30"/>
-                                        <state key="normal" title="OK!"/>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBA-sK-c1g">
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="Pick it up!"/>
                                         <connections>
-                                            <segue destination="BNv-f5-nbz" kind="show" id="bZN-os-Hcy"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2C-t9-3q4">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
-                                        <state key="normal" title="Back"/>
-                                        <connections>
-                                            <segue destination="sKJ-rE-ogc" kind="show" id="Q3n-MP-7xE"/>
+                                            <action selector="getRope:" destination="7nh-3l-1cW" eventType="touchUpInside" id="D7O-qf-MuW"/>
+                                            <segue destination="lFn-vZ-XnM" kind="show" id="GJp-nY-Sul"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -339,23 +347,32 @@
                         <viewControllerLayoutGuide type="bottom" id="jfk-31-ssf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Edl-JM-qrx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BuL-D8-rU1">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Near the lake?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yx3-y3-EoT">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Near the lake" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yx3-y3-EoT">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camping near the lake" translatesAutoresizingMaskIntoConstraints="NO" id="KAr-oN-Leb">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="450"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="camping near the lake" translatesAutoresizingMaskIntoConstraints="NO" id="KAr-oN-Leb">
+                                        <rect key="frame" x="0.0" y="21" width="374" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="MS3-xf-1ZQ"/>
+                                        </constraints>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You are heading to the lake." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kb1-gg-UnX">
-                                        <rect key="frame" x="0.0" y="471" width="343" height="100"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="axe" translatesAutoresizingMaskIntoConstraints="NO" id="tio-E9-c7t">
+                                        <rect key="frame" x="0.0" y="221" width="374" height="349"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="280.5" id="f3z-ef-5h7"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You find an axe near the lake!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kb1-gg-UnX">
+                                        <rect key="frame" x="0.0" y="570" width="374" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="yba-61-zpR"/>
@@ -363,18 +380,12 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfB-GU-sGq">
-                                        <rect key="frame" x="0.0" y="571" width="343" height="30"/>
-                                        <state key="normal" title="OK!"/>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWv-eY-Us7">
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="Pick it up!"/>
                                         <connections>
-                                            <segue destination="3Hw-Zh-cMj" kind="show" id="CXT-YJ-RtU"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pln-dJ-Zly">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
-                                        <state key="normal" title="Back"/>
-                                        <connections>
-                                            <segue destination="sKJ-rE-ogc" kind="show" id="mBk-oQ-p3b"/>
+                                            <action selector="getAxe:" destination="omi-ml-Wpm" eventType="touchUpInside" id="k2R-Ye-Wcu"/>
+                                            <segue destination="lFn-vZ-XnM" kind="show" id="P8O-qe-3lo"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -402,23 +413,23 @@
                         <viewControllerLayoutGuide type="bottom" id="vgL-i5-2mu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="w2r-ws-d4c">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yaX-pN-a8L">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Here?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG5-wq-xgI">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Copy of c_cave-of-wonders" translatesAutoresizingMaskIntoConstraints="NO" id="ZAb-0x-6vZ">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="284"/>
+                                        <rect key="frame" x="0.0" y="21" width="374" height="284"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You are going to stay outside the cave!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ftJ-q0-jiI">
-                                        <rect key="frame" x="0.0" y="305" width="343" height="266"/>
+                                        <rect key="frame" x="0.0" y="305" width="374" height="365"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Hcj-nh-wLX"/>
@@ -427,17 +438,10 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knW-Lc-uzc">
-                                        <rect key="frame" x="0.0" y="571" width="343" height="30"/>
-                                        <state key="normal" title="OK!"/>
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="Then..."/>
                                         <connections>
                                             <segue destination="lFn-vZ-XnM" kind="show" id="fWI-X1-CrG"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6K-cG-vvN">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
-                                        <state key="normal" title="Back"/>
-                                        <connections>
-                                            <segue destination="sKJ-rE-ogc" kind="show" id="rpF-A1-7DM"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -457,118 +461,6 @@
             <point key="canvasLocation" x="804" y="2401"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Cpu-cM-aul">
-            <objects>
-                <viewController id="BNv-f5-nbz" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="RIp-MF-RYK"/>
-                        <viewControllerLayoutGuide type="bottom" id="55x-Jq-Rko"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Kkd-ak-p0a">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZBs-5B-9Fq">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="On the mountain!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DFy-ia-ndh">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rope" translatesAutoresizingMaskIntoConstraints="NO" id="Uyg-wi-Ytg">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="480"/>
-                                    </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You find a rope on the top of the mountain!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DgK-KG-VFE">
-                                        <rect key="frame" x="0.0" y="501" width="343" height="100"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Wg3-ug-lhD"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBA-sK-c1g">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
-                                        <state key="normal" title="Pick it up!"/>
-                                        <connections>
-                                            <segue destination="lFn-vZ-XnM" kind="show" id="GJp-nY-Sul"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="ZBs-5B-9Fq" firstAttribute="leading" secondItem="Kkd-ak-p0a" secondAttribute="leadingMargin" id="3j2-Ap-JE2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ZBs-5B-9Fq" secondAttribute="trailing" id="7hn-0a-Nyo"/>
-                            <constraint firstItem="55x-Jq-Rko" firstAttribute="top" secondItem="ZBs-5B-9Fq" secondAttribute="bottom" constant="8" symbolic="YES" id="Btj-Dy-LB6"/>
-                            <constraint firstItem="ZBs-5B-9Fq" firstAttribute="top" secondItem="RIp-MF-RYK" secondAttribute="bottom" constant="8" symbolic="YES" id="SAh-Es-60e"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g3a-9s-qic" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1551" y="746"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="zwt-Si-vl6">
-            <objects>
-                <viewController id="3Hw-Zh-cMj" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ecc-Fp-oMf"/>
-                        <viewControllerLayoutGuide type="bottom" id="frd-wE-0LL"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="yNC-Qa-dWF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CCC-6F-0hD">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Near the lake!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tic-zO-z6f">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="axe" translatesAutoresizingMaskIntoConstraints="NO" id="tio-E9-c7t">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="480"/>
-                                    </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You find a rope on the top of the mountain!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rr8-Rd-Xzf">
-                                        <rect key="frame" x="0.0" y="501" width="343" height="100"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="JBP-s6-drB"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWv-eY-Us7">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
-                                        <state key="normal" title="Pick it up!"/>
-                                        <connections>
-                                            <segue destination="lFn-vZ-XnM" kind="show" id="P8O-qe-3lo"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="CCC-6F-0hD" firstAttribute="leading" secondItem="yNC-Qa-dWF" secondAttribute="leadingMargin" id="9dt-eY-WWi"/>
-                            <constraint firstItem="CCC-6F-0hD" firstAttribute="top" secondItem="Ecc-Fp-oMf" secondAttribute="bottom" constant="8" symbolic="YES" id="duU-UQ-DLX"/>
-                            <constraint firstItem="frd-wE-0LL" firstAttribute="top" secondItem="CCC-6F-0hD" secondAttribute="bottom" constant="8" symbolic="YES" id="emD-lR-Zjt"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="CCC-6F-0hD" secondAttribute="trailing" id="hJX-K0-8xg"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vNr-SF-tuf" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1550" y="1567"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="0Eb-wZ-nLp">
             <objects>
                 <viewController id="4M1-P5-nHr" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
@@ -577,23 +469,23 @@
                         <viewControllerLayoutGuide type="bottom" id="nCU-ID-0ww"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="baR-uP-LXs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FVq-vg-Kqm">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Left..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dw-jE-y36">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bear" translatesAutoresizingMaskIntoConstraints="NO" id="6lJ-Md-4gS">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="242"/>
+                                        <rect key="frame" x="0.0" y="21" width="374" height="242"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="Oh no!!! There's a bear! And you have no weapon." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d7Q-dN-XpM">
-                                        <rect key="frame" x="0.0" y="263" width="343" height="338"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="Oh no!!! There's a bear! But luckily you have an axe in your hand." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d7Q-dN-XpM">
+                                        <rect key="frame" x="0.0" y="263" width="374" height="407"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="IsA-br-WBU"/>
@@ -602,11 +494,8 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72D-MO-d58">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
-                                        <state key="normal" title="And..."/>
-                                        <connections>
-                                            <segue destination="QUt-pP-4kB" kind="show" id="HIx-pC-swu"/>
-                                        </connections>
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="Kill it!"/>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -633,23 +522,23 @@
                         <viewControllerLayoutGuide type="bottom" id="Ufb-oY-9rJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LhH-Nw-1oI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FaN-Td-52v">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Hall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpx-0k-lGt">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hall" translatesAutoresizingMaskIntoConstraints="NO" id="SCI-Nw-3ix">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="168"/>
+                                        <rect key="frame" x="0.0" y="21" width="374" height="168"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You are standing in a wide space in the cave." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="95A-J0-JJ1">
-                                        <rect key="frame" x="0.0" y="189" width="343" height="382"/>
+                                        <rect key="frame" x="0.0" y="189" width="374" height="451"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="zxz-oS-8PF"/>
@@ -658,17 +547,17 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AwE-EC-Xfh">
-                                        <rect key="frame" x="0.0" y="571" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="640" width="374" height="30"/>
                                         <state key="normal" title="Climb onto the cliff beside the hall"/>
                                         <connections>
                                             <segue destination="zdr-Rk-86y" kind="show" id="MLJ-1b-sk3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dv2-YV-sb6">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
                                         <state key="normal" title="Walk alone the stream"/>
                                         <connections>
-                                            <segue destination="VJG-Pf-Np2" kind="show" id="p0l-vE-P6k"/>
+                                            <action selector="toThePassage:" destination="fOA-59-zlG" eventType="touchUpInside" id="6PY-MF-eqn"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -682,6 +571,10 @@
                             <constraint firstItem="Ufb-oY-9rJ" firstAttribute="top" secondItem="FaN-Td-52v" secondAttribute="bottom" constant="8" symbolic="YES" id="u6l-PG-hPd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="VJG-Pf-Np2" kind="show" identifier="Get Pickaxe" id="Vmf-q2-sXO"/>
+                        <segue destination="gCa-J0-mRQ" kind="show" identifier="Flood" id="XXp-cq-ci3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="suO-8J-CHd" sceneMemberID="firstResponder"/>
             </objects>
@@ -696,21 +589,21 @@
                         <viewControllerLayoutGuide type="bottom" id="dqV-rz-JBU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5dE-ae-GvC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Pn9-Lc-NvG">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" ambiguous="YES" text="You are killed." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hc-oO-NWo">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="601"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="You are killed." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hc-oO-NWo">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="670"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8h-XQ-gv4">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
-                                        <state key="normal" title="Go back to the entrnce-&gt;"/>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8h-XQ-gv4">
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="Go back to the entrnce to play again-&gt;"/>
                                         <connections>
                                             <segue destination="4cg-dU-ciI" kind="show" id="KQR-mX-kpu"/>
                                         </connections>
@@ -729,7 +622,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D5J-nA-gOc" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1969" y="-1468"/>
+            <point key="canvasLocation" x="-1970" y="-997"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ixP-1Y-xjl">
@@ -740,23 +633,23 @@
                         <viewControllerLayoutGuide type="bottom" id="FG3-Vd-sqj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="c9z-pZ-OeC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="H2x-ys-uIE">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="In the passage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VMh-2d-9oi">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pickaxe" translatesAutoresizingMaskIntoConstraints="NO" id="LRc-Tu-XMF">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="408"/>
+                                        <rect key="frame" x="0.0" y="21" width="374" height="408"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You find a pickaxe in the passage." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fLT-CF-naZ">
-                                        <rect key="frame" x="0.0" y="429" width="343" height="172"/>
+                                        <rect key="frame" x="0.0" y="429" width="374" height="241"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="5Uq-tK-Qki"/>
@@ -765,7 +658,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAf-hy-8GB">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
                                         <state key="normal" title="Pick it up!"/>
                                         <connections>
                                             <segue destination="15s-16-2lZ" kind="show" id="8R5-Xq-LI5"/>
@@ -796,23 +689,23 @@
                         <viewControllerLayoutGuide type="bottom" id="iMf-4p-G8h"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BaO-yV-p7H">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jxF-qH-wgm">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Stone blocks your way" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79s-wZ-UMk">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wall" translatesAutoresizingMaskIntoConstraints="NO" id="zF1-eC-otR">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="450"/>
+                                        <rect key="frame" x="0.0" y="21" width="374" height="519"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You can use your pickaxe to break it." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4Z1-21-Ksc">
-                                        <rect key="frame" x="0.0" y="471" width="343" height="100"/>
+                                        <rect key="frame" x="0.0" y="540" width="374" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="iDJ-ms-8W5"/>
@@ -821,15 +714,18 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKD-fu-f4I">
-                                        <rect key="frame" x="0.0" y="571" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="640" width="374" height="30"/>
                                         <state key="normal" title="Do it!"/>
                                         <connections>
-                                            <segue destination="Cv2-TO-Orl" kind="show" id="AN7-6I-dph"/>
+                                            <segue destination="0ig-aJ-j8N" kind="show" id="lY6-wo-fUO"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nK-eK-leY">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
-                                        <state key="normal" title="I'd rather go back."/>
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="I'd rather go back and climb the cliff."/>
+                                        <connections>
+                                            <segue destination="zdr-Rk-86y" kind="show" id="1Kf-fI-Tqu"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -845,7 +741,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ka-6l-Rjm" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2457" y="-267"/>
+            <point key="canvasLocation" x="2510" y="-267"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ucB-P1-U7e">
@@ -856,23 +752,23 @@
                         <viewControllerLayoutGuide type="bottom" id="xSx-Cp-RXW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gud-6J-PMY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DNH-na-Teq">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Hall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8o-S8-JbG">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hall" translatesAutoresizingMaskIntoConstraints="NO" id="8QC-rv-5Li">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="168"/>
+                                        <rect key="frame" x="0.0" y="21" width="374" height="168"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You are standing in a wide space in the cave." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wB2-Ek-GuK">
-                                        <rect key="frame" x="0.0" y="189" width="343" height="382"/>
+                                        <rect key="frame" x="0.0" y="189" width="374" height="451"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="AIx-tp-kM6"/>
@@ -881,11 +777,11 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHu-qi-wK2">
-                                        <rect key="frame" x="0.0" y="571" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="640" width="374" height="30"/>
                                         <state key="normal" title="Climb onto the cliff beside the hall"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWM-5P-qvL">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
                                         <state key="normal" title="Walk alone the stream"/>
                                     </button>
                                 </subviews>
@@ -902,7 +798,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y8C-vz-pVA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1764" y="-909"/>
+            <point key="canvasLocation" x="1764" y="-927"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="r3V-e6-22O">
@@ -913,21 +809,33 @@
                         <viewControllerLayoutGuide type="bottom" id="Ghl-FT-0no"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hrU-Zv-wUu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ko2-IV-VIz">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" ambiguous="YES" text="You've just gotten out of the cave." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feb-aP-zTd">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="601"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="You've just gotten out of the cave.  ." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feb-aP-zTd">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clh-Us-Dhj">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
-                                        <state key="normal" title="Go back to the entrnce-&gt;"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Out" translatesAutoresizingMaskIntoConstraints="NO" id="oEI-L3-uvw">
+                                        <rect key="frame" x="0.0" y="21" width="374" height="549"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" text="You have no treasure, but at least you are safe." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GzQ-gb-ij1">
+                                        <rect key="frame" x="0.0" y="570" width="374" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="EVw-hb-DkO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clh-Us-Dhj">
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="Go back to the entrnce to play again-&gt;"/>
                                         <connections>
                                             <segue destination="4cg-dU-ciI" kind="show" id="G7H-b1-M2q"/>
                                         </connections>
@@ -946,7 +854,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jZ6-KQ-Na9" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1970" y="-510"/>
+            <point key="canvasLocation" x="-1970" y="36"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Xwh-cJ-CTc">
@@ -957,23 +865,23 @@
                         <viewControllerLayoutGuide type="bottom" id="7HG-AZ-0ZP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YO5-gO-jYU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yO1-De-Qef">
-                                <rect key="frame" x="16" y="28" width="343" height="631"/>
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Cave Entrance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZv-We-DvA">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Copy of c_cave-of-wonders" translatesAutoresizingMaskIntoConstraints="NO" id="Oro-MS-niU">
-                                        <rect key="frame" x="0.0" y="21" width="343" height="284"/>
+                                        <rect key="frame" x="0.0" y="21" width="374" height="284"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="It's morning!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HN5-yu-OtB">
-                                        <rect key="frame" x="0.0" y="305" width="343" height="296"/>
+                                        <rect key="frame" x="0.0" y="305" width="374" height="365"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="bdB-y8-HK0"/>
@@ -982,9 +890,10 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j51-9T-2Ry">
-                                        <rect key="frame" x="0.0" y="601" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
                                         <state key="normal" title="I can't wait! Enter the cave now!!!"/>
                                         <connections>
+                                            <action selector="overnight:" destination="lFn-vZ-XnM" eventType="touchUpInside" id="N8w-Tx-u3D"/>
                                             <segue destination="8Qu-Bh-04w" kind="show" id="NZ8-6z-qjx"/>
                                         </connections>
                                     </button>
@@ -1002,11 +911,418 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rcv-TS-NQk" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2286" y="1567"/>
+            <point key="canvasLocation" x="1567" y="1567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZkA-lR-uD9">
+            <objects>
+                <viewController id="DAb-0O-hMZ" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VIX-93-8bX"/>
+                        <viewControllerLayoutGuide type="bottom" id="6gE-nz-UlF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J2K-Ru-bw6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BrA-vK-dBx">
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Left..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNy-5K-m0A">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bear" translatesAutoresizingMaskIntoConstraints="NO" id="4Ns-ud-93w">
+                                        <rect key="frame" x="0.0" y="21" width="374" height="242"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="Oh no!!! There's a bear! And you have no weapon." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BXr-mv-Bpt">
+                                        <rect key="frame" x="0.0" y="263" width="374" height="407"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="wkR-NC-J7R"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHR-hQ-rVC">
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="And..."/>
+                                        <connections>
+                                            <segue destination="QUt-pP-4kB" kind="show" id="QVi-C9-Yfr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BrA-vK-dBx" firstAttribute="top" secondItem="VIX-93-8bX" secondAttribute="bottom" constant="8" symbolic="YES" id="GZV-3F-rU9"/>
+                            <constraint firstItem="6gE-nz-UlF" firstAttribute="top" secondItem="BrA-vK-dBx" secondAttribute="bottom" constant="8" symbolic="YES" id="NU3-WN-sSf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BrA-vK-dBx" secondAttribute="trailing" id="QFj-dH-t4L"/>
+                            <constraint firstItem="BrA-vK-dBx" firstAttribute="leading" secondItem="J2K-Ru-bw6" secondAttribute="leadingMargin" id="d7O-eT-bQh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="2jc-4O-7MW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2xF-h5-Dy4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1006" y="-2127"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="71e-c9-aHS">
+            <objects>
+                <viewController id="9md-6M-FgS" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hfY-NC-eDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="vV4-Cf-zgF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y5Q-h7-RhZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4Nq-pl-ind">
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Stone blocks your way" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJX-rC-0Do">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wall" translatesAutoresizingMaskIntoConstraints="NO" id="pRB-dE-Saq">
+                                        <rect key="frame" x="0.0" y="21" width="374" height="549"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You have no tools in your hand." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4rH-Ee-thf">
+                                        <rect key="frame" x="0.0" y="570" width="374" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="rcA-Eu-gHb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a0C-JX-gSf">
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="Go back and climb the cliff..."/>
+                                        <connections>
+                                            <segue destination="zdr-Rk-86y" kind="show" id="YWf-GF-Sb3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vV4-Cf-zgF" firstAttribute="top" secondItem="4Nq-pl-ind" secondAttribute="bottom" constant="8" symbolic="YES" id="JqO-Rs-iFH"/>
+                            <constraint firstItem="4Nq-pl-ind" firstAttribute="top" secondItem="hfY-NC-eDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="eGU-p6-4gE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4Nq-pl-ind" secondAttribute="trailing" id="mSi-5D-h6F"/>
+                            <constraint firstItem="4Nq-pl-ind" firstAttribute="leading" secondItem="Y5Q-h7-RhZ" secondAttribute="leadingMargin" id="nn7-37-SAI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="feT-2V-qzO" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4039" y="458"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QvV-b4-MLx">
+            <objects>
+                <viewController id="gCa-J0-mRQ" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="clG-2H-pFX"/>
+                        <viewControllerLayoutGuide type="bottom" id="yjm-0g-yDg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3gK-Zg-IiC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mcy-Az-8Qr">
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Oh no!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1n-fK-gxi">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="waterfall" translatesAutoresizingMaskIntoConstraints="NO" id="oPI-Ee-ydK">
+                                        <rect key="frame" x="0.0" y="21" width="374" height="549"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="Water comes here very fast! It is able to take you out of the cave." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d9E-WC-kr3">
+                                        <rect key="frame" x="0.0" y="570" width="374" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="pHA-5j-M5C"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PyX-2g-f7x">
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="And..."/>
+                                        <connections>
+                                            <action selector="floodComes:" destination="gCa-J0-mRQ" eventType="touchUpInside" id="ITP-zg-Mzp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="mcy-Az-8Qr" secondAttribute="trailing" id="1eH-ys-ntX"/>
+                            <constraint firstItem="mcy-Az-8Qr" firstAttribute="leading" secondItem="3gK-Zg-IiC" secondAttribute="leadingMargin" id="3D0-di-QtA"/>
+                            <constraint firstItem="mcy-Az-8Qr" firstAttribute="top" secondItem="clG-2H-pFX" secondAttribute="bottom" constant="8" symbolic="YES" id="YcP-EX-Jfd"/>
+                            <constraint firstItem="yjm-0g-yDg" firstAttribute="top" secondItem="mcy-Az-8Qr" secondAttribute="bottom" constant="8" symbolic="YES" id="tjG-WO-mo3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="wcq-7z-O2W" kind="show" identifier="Rope" id="hYm-hV-2kC"/>
+                        <segue destination="IgR-N1-bRY" kind="show" identifier="Axe" id="8dH-vX-nls"/>
+                        <segue destination="Cv2-TO-Orl" kind="show" identifier="Nothing" id="dp4-yZ-qgu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RON-W5-2xF" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1764" y="460"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BsQ-Qc-EAW">
+            <objects>
+                <viewController id="wcq-7z-O2W" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9vb-7j-Deo"/>
+                        <viewControllerLayoutGuide type="bottom" id="yJB-YK-AUV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qPl-2F-Kza">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FdJ-BE-tp0">
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="You got a rop!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yul-jS-aTh">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rope" translatesAutoresizingMaskIntoConstraints="NO" id="ZQV-dP-zdN">
+                                        <rect key="frame" x="0.0" y="21" width="374" height="519"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You can void being taken away by the flood." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z7U-ua-a0F">
+                                        <rect key="frame" x="0.0" y="540" width="374" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Tw3-i5-10b"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nWG-rs-b2a">
+                                        <rect key="frame" x="0.0" y="640" width="374" height="30"/>
+                                        <state key="normal" title="Use it!"/>
+                                        <connections>
+                                            <segue destination="3ma-4S-F2m" kind="show" id="bEY-4C-aMb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bbn-gX-Czc">
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="No!"/>
+                                        <connections>
+                                            <segue destination="Cv2-TO-Orl" kind="show" id="j4w-Dx-kS7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="FdJ-BE-tp0" secondAttribute="trailing" id="7d0-UJ-zXD"/>
+                            <constraint firstItem="FdJ-BE-tp0" firstAttribute="leading" secondItem="qPl-2F-Kza" secondAttribute="leadingMargin" id="n7n-Qb-k57"/>
+                            <constraint firstItem="yJB-YK-AUV" firstAttribute="top" secondItem="FdJ-BE-tp0" secondAttribute="bottom" constant="8" symbolic="YES" id="n9N-fU-kOP"/>
+                            <constraint firstItem="FdJ-BE-tp0" firstAttribute="top" secondItem="9vb-7j-Deo" secondAttribute="bottom" constant="8" symbolic="YES" id="rhe-Qh-EyU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yzo-9U-9Ew" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2511" y="459"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YbL-gF-aVm">
+            <objects>
+                <viewController id="IgR-N1-bRY" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6fw-Ww-WpB"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Xl-54-hmB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JmM-Up-Q9N">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-DQ-0zU">
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Ahh!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUC-nr-P8G">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="axe" translatesAutoresizingMaskIntoConstraints="NO" id="F8A-aa-aRr">
+                                        <rect key="frame" x="0.0" y="21" width="374" height="549"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You are cut by your axe!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="68Q-Qm-OCv">
+                                        <rect key="frame" x="0.0" y="570" width="374" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="SgI-C8-idq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBe-QM-cYl">
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="And..."/>
+                                        <connections>
+                                            <segue destination="QUt-pP-4kB" kind="show" id="AWo-16-2lA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ijj-DQ-0zU" firstAttribute="leading" secondItem="JmM-Up-Q9N" secondAttribute="leadingMargin" id="26q-Ek-0vn"/>
+                            <constraint firstItem="9Xl-54-hmB" firstAttribute="top" secondItem="ijj-DQ-0zU" secondAttribute="bottom" constant="8" symbolic="YES" id="Bec-k6-fG4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ijj-DQ-0zU" secondAttribute="trailing" id="ERJ-eH-cGZ"/>
+                            <constraint firstItem="ijj-DQ-0zU" firstAttribute="top" secondItem="6fw-Ww-WpB" secondAttribute="bottom" constant="8" symbolic="YES" id="eDm-vC-F5y"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C2U-Ld-Nwc" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2511" y="1161"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EqP-jo-1SJ">
+            <objects>
+                <viewController id="3ma-4S-F2m" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lkj-s4-nzM"/>
+                        <viewControllerLayoutGuide type="bottom" id="kW9-Hc-E7p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ihN-UN-1kM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="val-OR-jkw">
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="The flood passed!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhW-Mk-74f">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hall" translatesAutoresizingMaskIntoConstraints="NO" id="quQ-h3-El6">
+                                        <rect key="frame" x="0.0" y="21" width="374" height="168"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="Now you can continue walking alone the stream." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ycT-9o-7M8">
+                                        <rect key="frame" x="0.0" y="189" width="374" height="481"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="xkD-Vm-nIQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrG-H5-yko">
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="Go!"/>
+                                        <connections>
+                                            <segue destination="9md-6M-FgS" kind="show" id="EH0-yg-hfL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="val-OR-jkw" secondAttribute="trailing" id="b5A-Ah-WsE"/>
+                            <constraint firstItem="val-OR-jkw" firstAttribute="top" secondItem="lkj-s4-nzM" secondAttribute="bottom" constant="8" symbolic="YES" id="gx2-CY-Xtd"/>
+                            <constraint firstItem="val-OR-jkw" firstAttribute="leading" secondItem="ihN-UN-1kM" secondAttribute="leadingMargin" id="xRP-hC-rNf"/>
+                            <constraint firstItem="kW9-Hc-E7p" firstAttribute="top" secondItem="val-OR-jkw" secondAttribute="bottom" constant="8" symbolic="YES" id="yWm-51-Hxf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yJG-zb-E67" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3289" y="459"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="978-47-047">
+            <objects>
+                <viewController id="0ig-aJ-j8N" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="crA-Vy-Dix"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ue9-eQ-jTm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qai-gq-2Ub">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Khh-nu-HZm">
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="You find gold in the cave!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLj-kp-H4U">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gold-Coins" translatesAutoresizingMaskIntoConstraints="NO" id="RO7-zF-xQM">
+                                        <rect key="frame" x="0.0" y="21" width="374" height="549"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" text="Now you can go back with gold!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="E93-jX-4hV">
+                                        <rect key="frame" x="0.0" y="570" width="374" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Tgl-bf-Q7x"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rlQ-du-FPY">
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="Go back to the entrnce to play again-&gt;"/>
+                                        <connections>
+                                            <segue destination="4cg-dU-ciI" kind="show" id="veM-TN-f6Y"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Khh-nu-HZm" secondAttribute="trailing" id="1pa-sf-9oi"/>
+                            <constraint firstItem="Khh-nu-HZm" firstAttribute="leading" secondItem="qai-gq-2Ub" secondAttribute="leadingMargin" id="3Wp-yc-MpR"/>
+                            <constraint firstItem="Khh-nu-HZm" firstAttribute="top" secondItem="crA-Vy-Dix" secondAttribute="bottom" constant="8" symbolic="YES" id="Vb8-78-gb5"/>
+                            <constraint firstItem="Ue9-eQ-jTm" firstAttribute="top" secondItem="Khh-nu-HZm" secondAttribute="bottom" constant="8" symbolic="YES" id="dGJ-HF-hWf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rBd-5n-hO2" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1971" y="997"/>
         </scene>
     </scenes>
     <resources>
         <image name="Copy of c_cave-of-wonders" width="550" height="284"/>
+        <image name="Gold-Coins" width="800" height="600"/>
+        <image name="Out" width="3110" height="2073"/>
         <image name="axe" width="2000" height="2000"/>
         <image name="bear" width="350" height="242"/>
         <image name="camping near the lake" width="924" height="519"/>
@@ -1016,11 +1332,14 @@
         <image name="rope" width="1280" height="850"/>
         <image name="two ways" width="880" height="588"/>
         <image name="wall" width="1280" height="960"/>
+        <image name="waterfall" width="960" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="rpF-A1-7DM"/>
-        <segue reference="fWI-X1-CrG"/>
-        <segue reference="NZ8-6z-qjx"/>
-        <segue reference="G7H-b1-M2q"/>
+        <segue reference="KQR-mX-kpu"/>
+        <segue reference="QVi-C9-Yfr"/>
+        <segue reference="JCp-hd-8bO"/>
+        <segue reference="dp4-yZ-qgu"/>
+        <segue reference="1Kf-fI-Tqu"/>
+        <segue reference="GJp-nY-Sul"/>
     </inferredMetricsTieBreakers>
 </document>
