@@ -71,5 +71,23 @@ class ViewController: UIViewController {
             performSegue(withIdentifier: "Nothing", sender: nil)
         }
     }
+    
+    @IBAction func climbDown(_ sender: Any) {
+        if haveRope{
+            performSegue(withIdentifier: "Land Down Cliff", sender: nil)
+        }
+        else{
+            performSegue(withIdentifier: "Fall Down Cliff", sender: nil)
+        }
+    }
+    
+    @IBAction func turnRight(_ sender: Any) {
+        if haveAxe{
+            performSegue(withIdentifier: "Kill The Bear", sender: nil)
+        }
+        else{
+            performSegue(withIdentifier: "Killed By Bear", sender: nil)
+        }
+    }
 }
 
