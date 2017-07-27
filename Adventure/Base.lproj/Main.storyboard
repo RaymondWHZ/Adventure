@@ -117,7 +117,7 @@
                                         <rect key="frame" x="0.0" y="670" width="374" height="30"/>
                                         <state key="normal" title="Right"/>
                                         <connections>
-                                            <segue destination="fOA-59-zlG" kind="show" id="Feg-EH-Ak0"/>
+                                            <action selector="toThePassage:" destination="8Qu-Bh-04w" eventType="touchUpInside" id="e2z-h0-snD"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -134,6 +134,8 @@
                     <connections>
                         <segue destination="DAb-0O-hMZ" kind="show" identifier="Killed By Bear" id="Wju-as-HcI"/>
                         <segue destination="4M1-P5-nHr" kind="show" identifier="Kill The Bear" id="q2E-5B-ARI"/>
+                        <segue destination="fOA-59-zlG" kind="show" identifier="Get Pickaxe" id="ATg-Nb-0ea"/>
+                        <segue destination="gCa-J0-mRQ" kind="show" identifier="Flood" id="JGW-W5-FrR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XhF-vy-A7E" sceneMemberID="firstResponder"/>
@@ -560,7 +562,7 @@
                                         <rect key="frame" x="0.0" y="670" width="374" height="30"/>
                                         <state key="normal" title="Walk alone the stream"/>
                                         <connections>
-                                            <action selector="toThePassage:" destination="fOA-59-zlG" eventType="touchUpInside" id="6PY-MF-eqn"/>
+                                            <segue destination="VJG-Pf-Np2" kind="show" id="YZQ-bJ-SH1"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -574,10 +576,6 @@
                             <constraint firstItem="Ufb-oY-9rJ" firstAttribute="top" secondItem="FaN-Td-52v" secondAttribute="bottom" constant="8" symbolic="YES" id="u6l-PG-hPd"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <segue destination="VJG-Pf-Np2" kind="show" identifier="Get Pickaxe" id="Vmf-q2-sXO"/>
-                        <segue destination="gCa-J0-mRQ" kind="show" identifier="Flood" id="XXp-cq-ci3"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="suO-8J-CHd" sceneMemberID="firstResponder"/>
             </objects>
@@ -1139,7 +1137,7 @@
                                         <rect key="frame" x="0.0" y="640" width="374" height="30"/>
                                         <state key="normal" title="Use it!"/>
                                         <connections>
-                                            <segue destination="3ma-4S-F2m" kind="show" id="bEY-4C-aMb"/>
+                                            <segue destination="5JO-1i-PFA" kind="show" id="XyD-Hz-nvR"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bbn-gX-Czc">
@@ -1220,62 +1218,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C2U-Ld-Nwc" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2412" y="1524"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="EqP-jo-1SJ">
-            <objects>
-                <viewController id="3ma-4S-F2m" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lkj-s4-nzM"/>
-                        <viewControllerLayoutGuide type="bottom" id="kW9-Hc-E7p"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ihN-UN-1kM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="val-OR-jkw">
-                                <rect key="frame" x="20" y="28" width="374" height="700"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="The flood passed!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhW-Mk-74f">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hall" translatesAutoresizingMaskIntoConstraints="NO" id="quQ-h3-El6">
-                                        <rect key="frame" x="0.0" y="21" width="374" height="168"/>
-                                    </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="Now you can continue walking alone the stream." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ycT-9o-7M8">
-                                        <rect key="frame" x="0.0" y="189" width="374" height="481"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="xkD-Vm-nIQ"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrG-H5-yko">
-                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
-                                        <state key="normal" title="Go!"/>
-                                        <connections>
-                                            <segue destination="9md-6M-FgS" kind="show" id="EH0-yg-hfL"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="val-OR-jkw" secondAttribute="trailing" id="b5A-Ah-WsE"/>
-                            <constraint firstItem="val-OR-jkw" firstAttribute="top" secondItem="lkj-s4-nzM" secondAttribute="bottom" constant="8" symbolic="YES" id="gx2-CY-Xtd"/>
-                            <constraint firstItem="val-OR-jkw" firstAttribute="leading" secondItem="ihN-UN-1kM" secondAttribute="leadingMargin" id="xRP-hC-rNf"/>
-                            <constraint firstItem="kW9-Hc-E7p" firstAttribute="top" secondItem="val-OR-jkw" secondAttribute="bottom" constant="8" symbolic="YES" id="yWm-51-Hxf"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yJG-zb-E67" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3155" y="761"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="978-47-047">
@@ -1511,7 +1453,6 @@
         <!--View Controller-->
         <scene sceneID="Hzb-lD-uq2">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Pfw-jU-Mqa" sceneMemberID="firstResponder"/>
                 <viewController id="lVH-Lh-Ud3" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="r0a-gI-xT7"/>
@@ -1561,6 +1502,7 @@
                         </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pfw-jU-Mqa" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3654" y="-997"/>
         </scene>
@@ -1620,6 +1562,69 @@
             </objects>
             <point key="canvasLocation" x="3654" y="-2407"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="6cd-5D-u4c">
+            <objects>
+                <viewController id="5JO-1i-PFA" customClass="ViewController" customModule="Adventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hQm-vM-hG3"/>
+                        <viewControllerLayoutGuide type="bottom" id="iFR-0V-dUq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DUI-l3-tBe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wpZ-ER-TbG">
+                                <rect key="frame" x="20" y="28" width="374" height="700"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Hall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fO0-oK-Dgk">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hall" translatesAutoresizingMaskIntoConstraints="NO" id="Ksa-D8-GPX">
+                                        <rect key="frame" x="0.0" y="21" width="374" height="168"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" editable="NO" text="You succeed in keeping yourself in the hall!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Bva-CE-IO5">
+                                        <rect key="frame" x="0.0" y="189" width="374" height="451"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="W74-uB-dlf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4K-J5-t9H">
+                                        <rect key="frame" x="0.0" y="640" width="374" height="30"/>
+                                        <state key="normal" title="Climb onto the cliff beside the hall"/>
+                                        <connections>
+                                            <segue destination="zdr-Rk-86y" kind="show" id="w8c-lb-eaP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWs-7m-5Yu">
+                                        <rect key="frame" x="0.0" y="670" width="374" height="30"/>
+                                        <state key="normal" title="Walk alone the stream"/>
+                                        <connections>
+                                            <segue destination="9md-6M-FgS" kind="show" id="XiE-Wf-pmt"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="wpZ-ER-TbG" secondAttribute="trailing" id="0ZT-l6-7RF"/>
+                            <constraint firstItem="iFR-0V-dUq" firstAttribute="top" secondItem="wpZ-ER-TbG" secondAttribute="bottom" constant="8" symbolic="YES" id="a1n-VG-HOa"/>
+                            <constraint firstItem="wpZ-ER-TbG" firstAttribute="leading" secondItem="DUI-l3-tBe" secondAttribute="leadingMargin" id="hFi-57-Mjc"/>
+                            <constraint firstItem="wpZ-ER-TbG" firstAttribute="top" secondItem="hQm-vM-hG3" secondAttribute="bottom" constant="8" symbolic="YES" id="zb1-PI-EU7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fLQ-hi-avr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3168" y="761"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Climb Down" width="1200" height="900"/>
@@ -1640,11 +1645,11 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="veM-TN-f6Y"/>
-        <segue reference="WhW-TD-7Ro"/>
+        <segue reference="w8c-lb-eaP"/>
         <segue reference="NZ8-6z-qjx"/>
         <segue reference="fWI-X1-CrG"/>
-        <segue reference="THP-km-zvB"/>
+        <segue reference="Wju-as-HcI"/>
+        <segue reference="j4w-Dx-kS7"/>
         <segue reference="kRe-gV-Rja"/>
-        <segue reference="rSc-aR-oUT"/>
     </inferredMetricsTieBreakers>
 </document>
